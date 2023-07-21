@@ -1,0 +1,42 @@
+.navbar_container{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Poppins', sans-serif;
+}
+.logo_img{
+    width: 400px;
+}
+.ul_box{
+    display: flex;  
+    text-decoration: none;
+    margin-top: 30px;
+}
+.ul_box li{
+    list-style-type: none;
+    margin: 0 20px;
+    font-weight: 700;
+    font-size: 17px;
+    color: #5A5A5C;
+}
+.btn_container{
+    display: flex;
+    width: 600px;
+    gap: 40px;
+}
+.client_btn{
+    color: #021187;
+    border: 1px solid #021187;
+    border-radius: 25px;
+    height: 50px;
+    line-height: 44px;
+    width: 150px;
+}
+.contact_btn{
+    color: #021187;
+    background: #2AFEB2;
+    border-radius: 25px;
+    height: 50px;
+    line-height: 44px;
+    width: 280px;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.348);    
+}

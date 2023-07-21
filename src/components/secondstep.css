@@ -1,0 +1,68 @@
+
+.second_step{
+    font-family: 'Poppins', sans-serif; 
+    display: flex;
+    gap: 200px;
+    margin-top: 100px;
+}
+.process_container{
+    text-align: left;
+}
+.process_container h2{
+   margin-left: 120px;
+}
+.process_list{
+    text-align: start;
+    margin-left:  80px;
+}
+.process_list li{
+    list-style-type: none; 
+    line-height: 60px;
+    color: #5A5A5C;
+    font-size: 20px;
+}
+.process_list span{
+    border-radius: 50%;
+    padding: 6px 14px;
+    border: solid 1px #5A5A5C;
+}
+/* INPUTS */
+
+.input_process{
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.input_box_2{  
+    gap: 40px;
+    display: flex;    
+    justify-content: center;
+}
+.input_box{
+    line-height: 3px;
+    text-align: start;  
+}
+.input_box h3{
+    color: #021187;
+    font-weight: 100;
+}
+.input_box input{
+    border: 1px solid #9D9D9D;
+    border-radius: 18px;
+    height: 40px;
+    width: 300px;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 18px;
+    padding-left: 20px;
+}
+.process_continue{
+    color: #021187;
+    background: #2AFEB2;
+    border-radius: 25px;
+    height: 50px;
+    line-height: 47px;
+    width: 200px;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.348);    
+}

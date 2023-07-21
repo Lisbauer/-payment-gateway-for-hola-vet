@@ -1,0 +1,102 @@
+.table_container{
+    position: relative;
+}
+.tittle_img{
+    width: 1050px;
+    margin: 80px;
+}
+.second_tittle{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 35px;
+    color: #021187;
+}
+.banner_tittle_container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 120px;
+}
+.banner_container{
+    height: auto;
+}
+.banner_container p{
+    color: #021187;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+.banners_img{
+    width: 200px;
+    margin: 0px 15px
+}
+.banners_img:hover{
+    border: solid 2px  #2AFEB2;
+    border-radius: 20%;    overflow: hidden;
+}
+.plan_container{
+    text-align: start;
+    margin: 0px 120px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;  
+    display: flex;
+    justify-content: space-between;
+}
+.plan_box{    
+    position: relative;
+    line-height: 2px;
+    height: 80px;
+    display: flex;
+}  
+.plan_box hr{
+    position: absolute;
+    width: calc(100% + 1030px);
+}
+.plan_box h4{
+    color: #021187;
+    font-size: 20px;
+}
+.plan_box h5{
+    color: #5A5A5C;
+    font-size: 18px;    
+}
+.number_box{
+    display: flex;
+    font-size: 22px;
+    position: absolute;
+    top: 25px; 
+    gap: 220px;
+    margin-left: 1080px;
+}
+.number_box p{
+    color: #021187;
+    font-weight: 900;    
+}
+hr{
+    border: none;
+    border-top: 1px solid #9d9d9d9f;
+}
+
+/* CONTRATAR BUTTON*/ 
+.contract_container{
+    display: flex;
+    justify-content: flex-end;
+    gap: -60px;
+}
+.contract{    
+    margin: 20px 90px 20px 0px;
+    color: #021187;
+    background: #2AFEB2;
+    border-radius: 28px;
+    height: 55px;
+    line-height: 53px;
+    width: 180px;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.348);    
+    font-family: 'Poppins', sans-serif;
+}
+
+.call_text{
+    font-family: 'Poppins', sans-serif;
+    color: #021187;
+    font-size: 32px;
+    margin-top: 60px;
+}
