@@ -1,0 +1,98 @@
+.fourthstep1{
+   display: flex;
+   flex-direction: column;
+   font-family: 'Poppins', sans-serif;
+}
+.fourthstep{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px; display: flex;
+    flex-direction: column;
+}
+.final_step_container{
+    color: #021187;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.text_banner{
+    align-items: center;
+    justify-content: space-around;
+}
+.final_step_container h2{
+    font-size: 40px;
+}
+.final_step_container p{
+    font-size: 30px;
+}
+.texts_container{
+    width: 800px;
+}
+.btn_text{
+    display: flex;
+    gap: 100px;
+    margin-top: 60px;
+    justify-content: center;
+}
+.text2_container{
+    font-size: 22px;
+    line-height: 8px;
+}
+.text2_container h5{
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: underline;
+}
+.whatsapp_box{
+    display: flex;
+}
+.whatsapp_box img{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+.inicio_btn{
+    color: #021187;
+    background: #2AFEB2;
+    border-radius: 25px;
+    height: 50px;
+    line-height: 48px;
+    width: 260px;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.348);    
+}
+.quienes_somos_container{
+    margin-top: 100px;
+}
+/* FOOTER*/
+.footer_container{
+    background: #021187;
+    text-align: left;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_text_number{
+    margin: 50px;
+}
+.footer_text_number h4{
+    font-weight: 100;
+}
+.footer_container img{
+    width: 200px;
+}
+.numbers_box{
+    display: flex;
+    color: white;
+    line-height: 0;
+    gap: 10px;
+    margin-top: 15px;
+}
+.numbers_box img{
+   width: 35px;
+   height: 35px;
+}
+.ul_footer li{
+    list-style: none;
+    margin: 25px;
+    font-size: 19px;
+}
