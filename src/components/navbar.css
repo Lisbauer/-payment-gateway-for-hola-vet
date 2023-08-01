@@ -11,12 +11,34 @@
     text-decoration: none;
     margin-top: 30px;
 }
+.ul_box li::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #021187;
+    transform: scaleX(0); 
+    transform-origin: right; 
+    transition: transform 0.2s ease-in-out;
+}
+.ul_box li:hover::before {
+    transform: scaleX(1); 
+    transform-origin: left; 
+}
+.ul_box li:hover {
+    transform: scale(1.1);
+    color: #021187;
+  }
 .ul_box li{
     list-style-type: none;
     margin: 0 20px;
     font-weight: 700;
     font-size: 17px;
     color: #5A5A5C;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
 }
 .btn_container{
     display: flex;
@@ -30,6 +52,7 @@
     height: 50px;
     line-height: 44px;
     width: 150px;
+    cursor: pointer;
 }
 .contact_btn{
     color: #021187;
@@ -37,6 +60,143 @@
     border-radius: 25px;
     height: 50px;
     line-height: 44px;
-    width: 280px;
+    width: 170px;
     box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.348);    
+    cursor: pointer;
+}
+/* burger button */
+.burger-btn{
+    display: flex;
+    flex-direction: column;
+    width: 3rem;
+    height: 3rem;
+    border: 0;
+    background: transparent;
+    display: none;
+  }
+  .burger-btn > * {
+    margin-bottom: 0.65rem;
+    }
+  
+  .burger-btn.active div {
+    background-color: #021187;;
+  }
+  .burger-btn div{
+    background-color: #021187;;
+    height: 2px;
+    width: 100%;
+    border-radius: 5px;
+    transition: all .5s;
+    transform-origin: left;
+  }
+  .burger-btn:hover div:first-child{
+    transform: rotate(45deg);
+  }
+  .burger-btn:hover div:nth-child(2){
+    opacity: 0;
+  }
+  .burger-btn:hover div:last-child{
+    transform: rotate(-45deg);
+  }
+
+/* RESPONSIVE */ 
+@media (max-width: 900px) {
+    .burger-btn{
+        display: flex;
+        position: absolute;
+        top: 20px;
+        right: 10px;
+        border: 0;
+        background: transparent;
+        z-index: 10;
+    }
+    .li-container {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        background: #2afeb0;
+        background-size: cover;
+        justify-content: center;
+        transform: translateY(-100%);
+        z-index: 9; 
+        height: 1000px;
+        transition: 0.5s;
+  }
+    .li-container.active  {
+        transform: translateX(0);
+        transition: 0.5s;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 0px;
+        width: 100%;
+  }
+    .li-container.active::after  {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        height: 700px;
+  }
+    .ul_box{
+        display: flex;
+        flex-direction: column;
+        font-size: 30px;
+        max-width: 90%;
+  }
+    .ul_box li{
+        height: 90px;
+        font-size: 32px;
+        color: #021187;
+  }
+    .ul_box li::before {
+        display: none;
+  }
+    .burger-btn.active + .li-container .ul_box {
+        display: block;
+        transition: 0.5s;
+  }
+    .navbar_container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+  }
+    .btn_container{
+        justify-content: center;
+  }
+}
+@media (max-width: 500px){
+    .burger-btn{
+        right: 0px;
+    }
+    .li-container {
+        height: 700px;
+  }
+    .ul_box{
+        max-width: 78%;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .ul_box li{
+        height: 50px;
+        font-size: 20px;
+    }
+    .logo_img{
+        width: 300px;
+    }
+    .client_btn{
+        width: 150px;
+        font-size: 13px;
+    }
+    .contact_btn{
+        width: 170px;
+        font-size: 13px;
+    }
+    .btn_container{
+        width: 300px;
+    }
 }

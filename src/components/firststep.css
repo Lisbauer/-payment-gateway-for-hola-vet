@@ -1,8 +1,5 @@
-.table_container{
-    position: relative;
-}
 .tittle_img{
-    width: 1050px;
+    width: 50%;
     margin: 80px;
 }
 .second_tittle{
@@ -16,22 +13,40 @@
     justify-content: space-between;
     margin: 0px 120px;
 }
+.banner_parrafo{
+    display: flex;
+}
 .banner_container{
     height: auto;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 55%;
+    top: 41%;
 }
 .banner_container p{
     color: #021187;
     font-weight: 800;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 1px;
+    font-size: 20px;
+    line-height: 94px;
 }
 .banners_img{
     width: 200px;
     margin: 0px 15px
 }
-.banners_img:hover{
-    border: solid 2px  #2AFEB2;
-    border-radius: 20%;    overflow: hidden;
+.sin_limites{
+    color: #021187;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    line-height: 0;
+}
+.charge_number{
+    color: #021187;
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    line-height: 0;
 }
 .plan_container{
     text-align: start;
@@ -43,29 +58,21 @@
 }
 .plan_box{    
     position: relative;
-    line-height: 2px;
-    height: 80px;
+    line-height: 20px;
     display: flex;
 }  
 .plan_box hr{
     position: absolute;
-    width: calc(100% + 1030px);
+    width: calc(100% + 1430px);
 }
 .plan_box h4{
     color: #021187;
     font-size: 20px;
+    height: auto;
 }
 .plan_box h5{
     color: #5A5A5C;
     font-size: 18px;    
-}
-.number_box{
-    display: flex;
-    font-size: 22px;
-    position: absolute;
-    top: 25px; 
-    gap: 220px;
-    margin-left: 1080px;
 }
 .number_box p{
     color: #021187;
@@ -80,10 +87,8 @@ hr{
 .contract_container{
     display: flex;
     justify-content: flex-end;
-    gap: -60px;
 }
 .contract{    
-    margin: 20px 90px 20px 0px;
     color: #021187;
     background: #2AFEB2;
     border-radius: 28px;
@@ -92,11 +97,55 @@ hr{
     width: 180px;
     box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.348);    
     font-family: 'Poppins', sans-serif;
+    cursor: pointer;
 }
 
 .call_text{
     font-family: 'Poppins', sans-serif;
     color: #021187;
     font-size: 32px;
-    margin-top: 60px;
+    margin-top: 260px;
+    cursor: pointer;
+}
+.number_column{
+    border: solid 3px #2AFEB2;
+    border-radius: 40px;
+}
+@media (max-width: 900px) {
+    .plan_container{
+        position: absolute;
+        top: 55%;
+        margin: 0px 10px;
+    }
+    .plan_container h4{
+        font-size: 18px;
+    }
+    .second_tittle{
+       position: absolute;
+       top: 42%;
+       left: 2%;
+    }
+    .plan_box hr{
+        position: absolute;
+        width: calc(100% + 700px);
+    }
+    .banner_container p{
+        font-size: 18px;
+    }
+    .banner_container{
+        left: 43%;
+    } 
+}
+    @media (max-width: 500px) {
+        .second_tittle{
+            font-size: 25px;
+         }
+        .call_text{
+            font-size: 20px;
+            width: 200px;
+        }
+        .plan_box hr{
+            position: absolute;
+            width: calc(100% + 600px);
+        }
 }

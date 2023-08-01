@@ -25,20 +25,20 @@ const FourthStep = () => {
               </div>
             </div>
           </div>{" "}
-          <div>
+          <div className="img_catdog_box">
             <img src="./images/dogandcat.png" alt="perro y gato imagen" />
           </div>
         </div>
 
         <section className="quienes_somos_container">
-          <h2 style={{ color: "#021187", fontSize: "30px" }}>Quienes somos</h2>
-          <p style={{ fontSize: "20px" }}>
+          <h2>Quienes somos</h2>
+          <p>
             <strong>Hola vet</strong> es un producto de Ar Vida, compa;ia de
             seguros de vida con mas de 120 a;os de experiencia en el pais
             <br /> y mas de 200.000 asegurados, convirtiendola en una de las
             empresas con mas trayectoria en su rubro.{" "}
           </p>
-          <h4 style={{ fontSize: "20px" }}>
+          <h4>
             Adaptandonos a las distintas etapas de la vida para brindar la mejor
             atencion a nuestros clientes.
           </h4>
