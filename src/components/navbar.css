@@ -40,6 +40,9 @@
     transition: 0.2s ease-in-out;
     cursor: pointer;
 }
+.ul_box a{
+  text-decoration: none;
+}
 .btn_container{
     display: flex;
     width: 600px;
@@ -183,6 +186,7 @@
     }
     .ul_box li{
         height: 50px;
+        width: 250px;
         font-size: 20px;
     }
     .logo_img{

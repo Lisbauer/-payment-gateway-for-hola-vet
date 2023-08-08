@@ -115,6 +115,7 @@ const SecondStep = () => {
               +
             </button>
           )}
+          <h5>Agregar otras mascotas</h5>
           </div>
 
           <h3 className="process_continue" onClick={handleContinue}>
@@ -123,9 +124,9 @@ const SecondStep = () => {
           {!isFormComplete && isValidationTriggered && (
             <p className="warning">Complete todos los campos por favor</p>
           )}
-          <h3 style={{ color: "#021187", textDecoration: "underline" }}>
+          <a href="https://api.whatsapp.com/send?phone=5491138522435&text=Quiero%20contratar"><h3 style={{ color: "#021187", textDecoration: "underline" }}>
             Hablar con un asesor
-          </h3>
+          </h3></a>
         </div>
       </div>
     </div>

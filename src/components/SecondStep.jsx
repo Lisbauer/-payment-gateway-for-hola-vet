@@ -191,9 +191,8 @@ const SecondStep = () => {
     >
       <option value="">Seleccionar tipo de documento</option>
       <option value="DNI">DNI</option>
+      <option value="Cedula">Cédula</option>
       <option value="Pasaporte">Pasaporte</option>
-      <option value="Carnet de extranjería">Carnet de extranjería</option>
-      <option value="Licencia de conducir">Licencia de conducir</option>
     </select>
   </div>
 
@@ -339,9 +338,9 @@ const SecondStep = () => {
           {!isFormComplete && isValidationTriggered && (
             <p className="warning">Complete todos los campos por favor</p>
           )}
-          <h3 style={{ color: "#021187", textDecoration: "underline", cursor:"pointer" }}>
+          <a href="https://api.whatsapp.com/send?phone=5491138522435&text=Quiero%20contratar"><h3 style={{ color: "#021187", textDecoration: "underline", cursor:"pointer" }}>
             Hablar con un asesor
-          </h3>
+          </h3></a>
         </div>
       </div>
     </div>

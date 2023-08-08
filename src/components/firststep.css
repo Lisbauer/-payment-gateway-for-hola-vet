@@ -1,5 +1,5 @@
 .tittle_img{
-    width: 50%;
+    width: 900px;
     margin: 80px;
 }
 .second_tittle{
@@ -7,6 +7,9 @@
     font-weight: 900;
     font-size: 35px;
     color: #021187;
+}
+.mobile_number_list{
+    display: none;
 }
 .banner_tittle_container{
     display: flex;
@@ -83,6 +86,10 @@ hr{
     border-top: 1px solid #9d9d9d9f;
 }
 
+.mobile_list{
+    display: none;
+}
+
 /* CONTRATAR BUTTON*/ 
 .contract_container{
     display: flex;
@@ -111,15 +118,187 @@ hr{
     border: solid 3px #2AFEB2;
     border-radius: 40px;
 }
-@media (max-width: 900px) {
+
+/* RESPONSIVE */ 
+/* Default styles for larger screens */
+.second_tittle {
+    display: block;
+  }
+.plan_container_mobile{
+    display: none;
+}
+.plan_box_mobile_1{
+    background-color: #b2b4d4;
+    border-radius: 30px;
+}
+.plan_box_mobile_2{
+    background-color:  #2AFEB2;
+    border-radius: 30px;
+}
+.plan_box_mobile_3{
+    background-color:  #021187;
+    border-radius: 30px;
+}
+.plan_box_tittle_1{
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 30px;
+}
+.plan_box_tittle_2{
+    color: #021187;
+    font-weight: 900;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 30px;
+}
+.plan_box_tittle_3{
+    color: #2AFEB2;
+    font-weight: 900;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 30px;
+}
+.plan_box_price{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    color: #021187;
+    line-height: 1px;
+}
+.plan_box_mobile_1 p{
+    color: #021187;
+    text-align: center;
+    line-height: 1px;
+}
+.plan_box_mobile_2 p{
+    color: #021187;
+    text-align: center;
+    line-height: 1px;
+}
+.plan_box_mobile_3 p{
+    color: #2AFEB2;
+    text-align: center;
+    line-height: 1px;
+}
+.box_items{
+    display: flex;
+}
+.box_items_h4{
+    margin-left: 40px;
+    line-height: 19px;
+}
+.box_items_h4 h4{
+    font-size: 19px;
+}
+.number_items{
+    margin-left: 40px;
+}
+.contratar_btn_1{
+    background-color: #2AFEB2;
+    color: #021187;
+    border-radius: 20px;
+    width: 180px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    align-items: center;
+}
+.contratar_btn_2{
+    color: #2AFEB2;
+    background-color: #021187;
+    border-radius: 20px;
+    width: 180px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    align-items: center;
+}
+.contratar_btn_3{
+    background-color: #2AFEB2;
+    color: #021187;
+    border-radius: 20px;
+    width: 180px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    align-items: center;
+}
+.btn_text_mobile{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+@media (max-width: 900px) {   
+    .call_text{
+        display: none;
+    }
+    .plan_container_mobile{
+        display: block;
+    }
+    .mobile_number_list{
+        display: block;
+        position: absolute;
+        left: 160px;
+        top: 120px;
+        display: flex;
+        flex-direction: column;
+    }
+    .mobile_number_list p{
+        line-height: 95px;
+    }
+    .number_column p{
+        display: none;
+    }
+    .number_column h4{
+        display: none;
+    }
+    .number_column h3{
+        display: none;
+    }
+    .number_column{
+        border: solid transparent;
+    }
+    .first_number_list p{
+        display: none;
+    }
+    .first_number_list h4{
+        display: none;
+    }
+    .first_number_list h3{
+        display: none;
+    }
+    .third_number_column p{
+        display: none;
+    }
+    .third_number_column h4{
+        display: none;
+    }
+    .third_number_column h3{
+        display: none;
+    }
+    .second_tittle {
+      display: none;
+    }
+    .second_tittle.mobile-text {
+      display: block;
+      font-size: 25px;
+    }
+    .mobile_list{
+        display: block;
+    }
+    .desktop_list{
+        display: none;
+    }
     .plan_container{
         position: absolute;
         top: 55%;
         margin: 0px 10px;
     }
-    .plan_container h4{
-        font-size: 18px;
-    }
+
     .second_tittle{
        position: absolute;
        top: 42%;
@@ -127,7 +306,7 @@ hr{
     }
     .plan_box hr{
         position: absolute;
-        width: calc(100% + 700px);
+        width: calc(40% + 500px);
     }
     .banner_container p{
         font-size: 18px;
@@ -135,7 +314,73 @@ hr{
     .banner_container{
         left: 43%;
     } 
+    .banners_img{
+        display: none;
+    }
+    .tittle_img{
+        width: 600px;
+        margin: 0;
+    }
 }
+
+@media (max-width: 650px) {
+    .plan_box hr{
+        position: absolute;
+        width: calc(50% + 300px);
+    }
+    .tittle_img{
+        width: 430px;
+        margin-top: 40px;
+    }
+}
+@media (max-width: 500px) {
+    .tittle_img{
+        width: 280px;
+    }
+    .mobile_number_list p{
+        font-size: 15px;
+        line-height: 67px;
+    }
+    .plan_box h4{
+        font-size: 15px;
+    }
+    .plan_box h5{
+        font-size: 15px;
+        line-height: 0;
+    }
+    .plan_box hr{
+        position: absolute;
+        width: calc(50% + 110px);
+    }
+    .second_tittle.mobile-text{
+        font-size: 18px;
+        line-height: 120px;
+    }
+    .mobile_number_list{
+        left: 110px;
+    }
+    .plan_box_tittle_1{
+        font-size: 25px;
+    }
+    .plan_box_tittle_2{
+        font-size: 25px;
+    }
+    .plan_box_tittle_3{
+        font-size: 28px;
+    }
+    .plan_box_price{
+        font-size: 28px;
+    }
+    .box_items_h4 h4{
+        font-size: 14px;
+    }
+}
+@media (max-width: 430px){
+    .mobile_number_list{
+        left: 80px;
+    }
+}
+/*
     @media (max-width: 500px) {
         .second_tittle{
             font-size: 25px;
@@ -148,4 +393,4 @@ hr{
             position: absolute;
             width: calc(100% + 600px);
         }
-}
+}*/

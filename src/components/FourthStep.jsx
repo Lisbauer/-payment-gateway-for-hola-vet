@@ -15,7 +15,7 @@ const FourthStep = () => {
               </p>
             </div>
             <div className="btn_text">
-              <h3 className="inicio_btn">Volver al Inicio</h3>
+              <a href="https://holavet.com.ar/" style={{textDecoration:"none"}}><h3 className="inicio_btn">Volver al Inicio</h3></a>
               <div className="text2_container">
                 <h4>¿Necesitas Ayuda?</h4>
                 <div className="whatsapp_box">
@@ -80,10 +80,10 @@ const FourthStep = () => {
 
           <div className="container_footer_ul">
             <ul className="ul_footer">
-              <li>Home</li>
-              <li>Blog</li>
-              <li>Contacto</li>
-              <li>Preguntas Frecuentes</li>
+              <a href="https://holavet.com.ar/"><li>Home</li></a>
+              <a href="https://holavet.com.ar/blog/"><li>Blog</li></a>
+              <a href="https://holavet.com.ar/contact/"><li>Contacto</li></a>
+              <a href="https://holavet.com.ar/preguntas-frecuentes/"><li>Preguntas Frecuentes</li></a>
             </ul>
           </div>
         </section>

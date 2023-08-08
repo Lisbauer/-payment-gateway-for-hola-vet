@@ -18,18 +18,17 @@ const Navbar = () => {
           <div></div>
           <div></div>
         </button>
-        <img className='logo_img' src="./images/logo.png" alt="logo" />
+        <a href="https://holavet.com.ar/"><img className='logo_img' src="./images/logo.png" alt="logo" /></a>
 
         <div className={`li-container ${isMenuOpen ? "active" : ""}`}>
             <ul className='ul_box'>
-            <li><span style={{color:"#2afdb1"}}>❤</span> Blog</li>
-            <li><span style={{color:"#2afdb1"}}>❤</span> Preguntas Frecuentes</li>
-            <li><span style={{color:"#2afdb1"}}>❤</span> Contacto</li>
+            <a href="https://holavet.com.ar/blog/"><li><span style={{color:"#2afdb1"}}>❤</span> Blog</li></a>
+            <a href="https://holavet.com.ar/preguntas-frecuentes/"><li><span style={{color:"#2afdb1"}}>❤</span> Preguntas Frecuentes</li></a>
+            <a href="https://holavet.com.ar/contact/"><li><span style={{color:"#2afdb1"}}>❤</span> Contacto</li></a>
             </ul>
         </div>
         <div className='btn_container'>
-        <h3 className='client_btn'>Soy Cliente</h3>
-        <h3 className='contact_btn'>Contactenme</h3>
+        <a href="https://holavet.com.ar/clientes-nuevo/" style={{textDecoration:"none"}}><h3 className='client_btn'>Soy Cliente</h3></a>
         </div>
     </div>
   )
