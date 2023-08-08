@@ -51,7 +51,7 @@ const FirstStep = () => {
               <p>4</p>
               <p>5</p>
               <p>5</p>
-              <h4 className="sin_limites">Sin limite</h4>
+              <h4 className="sin_limites">Sin límite</h4>
               <h4 className="charge_number">$1610</h4>
               <h3 className="contract">Contratar</h3>
             </div>
@@ -95,7 +95,7 @@ const FirstStep = () => {
               <p>4</p>
               <p>5</p>
               <p>5</p>
-              <h4 className="sin_limites">Sin limite</h4>
+              <h4 className="sin_limites">Sin límite</h4>
               <h4 className="charge_number">$1825</h4>
               <h3 className="contract">Contratar</h3>
             </div>
@@ -124,7 +124,7 @@ const FirstStep = () => {
               <p>4</p>
               <p>5</p>
               <p>5</p>
-              <h4 className="sin_limites">Sin limite</h4>
+              <h4 className="sin_limites">Sin límite</h4>
               <h4 className="charge_number">$2050</h4>
               <h3 className="contract">Contratar</h3>
             </div>

@@ -73,7 +73,7 @@ const PetDataSection = ({ index,
               <p className="parrafo_telefono" >*Recordá que la protección no es valida para <br />mascotas de 10 años o más.</p>
             </div>
             <div className="input_box">
-              <h3>Genero</h3>
+              <h3>Género</h3>
               <select value={genero}
               onChange={(event) => onGeneroChange(event.target.value)}
               style={{

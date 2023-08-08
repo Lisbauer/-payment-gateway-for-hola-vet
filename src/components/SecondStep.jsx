@@ -138,13 +138,13 @@ const SecondStep = () => {
             <span>3</span> Pago
           </li>
           <li>
-            <span>4</span> Confirmacion
+            <span>4</span> Confirmación
           </li>
         </ul>
       </div>
 
       <div className="input_section">
-        <h2  data-aos="fade-down" style={{ color: "#021187" }}>Completa los datos del titular</h2>
+        <h2  data-aos="fade-down" style={{ color: "#021187" }}>Completá los datos del titular</h2>
 
         <div className="input_process">
           <div className="input_box_2">
@@ -286,7 +286,7 @@ const SecondStep = () => {
 
           <div className="input_box_2">
             <div className="input_box">
-              <h3>Direccion*</h3>
+              <h3>Dirección*</h3>
               <input
                 className="inputs_larger"
                 type="text"
@@ -315,7 +315,7 @@ const SecondStep = () => {
               />
             </div>
             <div className="input_box">
-              <h3>Codigo Postal</h3>
+              <h3>Código Postal</h3>
               <input
                 className="shorter_inputs"
                 type="text"
@@ -334,7 +334,6 @@ const SecondStep = () => {
           <h3 className="process_continue" onClick={handleContinue}>
             Continuar →
           </h3>
-          {/* Mostramos el mensaje de advertencia si el formulario no está completado */}
           {!isFormComplete && isValidationTriggered && (
             <p className="warning">Complete todos los campos por favor</p>
           )}

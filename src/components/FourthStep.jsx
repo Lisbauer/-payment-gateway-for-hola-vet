@@ -31,16 +31,16 @@ const FourthStep = () => {
         </div>
 
         <section className="quienes_somos_container">
-          <h2>Quienes somos</h2>
+          <h2>Quiénes somos</h2>
           <p>
-            <strong>Hola vet</strong> es un producto de Ar Vida, compa;ia de
-            seguros de vida con mas de 120 a;os de experiencia en el pais
+            <strong>Hola vet</strong> es un producto de Ar Vida, compañía de
+            seguros de vida con más de 120 años de experiencia en el pais
             <br /> y mas de 200.000 asegurados, convirtiendola en una de las
             empresas con mas trayectoria en su rubro.{" "}
           </p>
           <h4>
             Adaptandonos a las distintas etapas de la vida para brindar la mejor
-            atencion a nuestros clientes.
+            atención a nuestros clientes.
           </h4>
           <img
             src="./images/primerolafamilia.png"
