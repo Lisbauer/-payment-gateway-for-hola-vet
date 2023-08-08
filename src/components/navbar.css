@@ -45,8 +45,6 @@
 }
 .btn_container{
     display: flex;
-    width: 600px;
-    gap: 40px;
 }
 .client_btn{
     color: #021187;
@@ -56,16 +54,11 @@
     line-height: 44px;
     width: 150px;
     cursor: pointer;
+    transition: 0.5s;
 }
-.contact_btn{
-    color: #021187;
-    background: #2AFEB2;
-    border-radius: 25px;
-    height: 50px;
-    line-height: 44px;
-    width: 170px;
-    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.348);    
-    cursor: pointer;
+.client_btn:hover{
+  box-shadow: inset  7px 3px 2px rgba(0, 0, 0, 0.342);
+  transition: 0.3s;
 }
 /* burger button */
 .burger-btn{
@@ -169,9 +162,10 @@
   }
     .btn_container{
         justify-content: center;
+        width: fit-content;
   }
 }
-@media (max-width: 500px){
+@media (max-width: 600px){
     .burger-btn{
         right: 0px;
     }

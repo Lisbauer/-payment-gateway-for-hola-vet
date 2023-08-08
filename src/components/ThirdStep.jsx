@@ -82,7 +82,7 @@ const SecondStep = () => {
       </div>
 
       <div className="input_section">
-        <h2 style={{ color: "#021187" }}>Completá los datos de las mascotas</h2>
+        <h2  data-aos="fade-down" style={{ color: "#021187" }}>Completá los datos de las mascotas</h2>
         <p>
           Completa los datos de la mascotas o las mascotas depediendo el plan
           que hayas elegido{" "}

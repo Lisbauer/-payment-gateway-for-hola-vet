@@ -18,7 +18,7 @@ const FirstStep = () => {
 
   return (
     <div className="table_container">
-      <img className="tittle_img" src="./images/tittle.png" alt="tittle" />
+      <img data-aos="fade-down" className="tittle_img" src="./images/tittle.png" alt="tittle" />
       <div className="banner_tittle_container">
         <h2 className={`second_tittle ${isMobile ? "mobile-text" : ""}`}>
           {isMobile ? "Todos nuestros planes incluyen" : "Que incluye?"}

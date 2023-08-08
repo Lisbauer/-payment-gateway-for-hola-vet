@@ -18,7 +18,7 @@ const PetDataSection = ({ index,
         const displayIndex = index + 1;
   return (
     <div>
-      <h3 style={{ color: "#2AFEB2" }}>Datos de la mascota {displayIndex}</h3>
+      <h3 style={{ color: "#2AFEB2"}}>Datos de la mascota {displayIndex}</h3>
       <div className="input_process">
           <div className="input_box_2">
             <div className="input_box">
@@ -62,7 +62,7 @@ const PetDataSection = ({ index,
     </div>
 
           <div className="input_box_2" style={{display:"flex", flexDirection:"column", justifyContent:"center", alignItems:"center"}}>
-            <div style={{display:"flex", gap:"10px"}}>
+            <div className="genero_edad" style={{display:"flex", gap:"10px"}}>
             <div className="input_box">
               <h3>Edad</h3>
               <input className="shorter_inputs" type="text" value={edad}

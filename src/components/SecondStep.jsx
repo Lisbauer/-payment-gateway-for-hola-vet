@@ -144,7 +144,7 @@ const SecondStep = () => {
       </div>
 
       <div className="input_section">
-        <h2 style={{ color: "#021187" }}>Completa los datos del titular</h2>
+        <h2  data-aos="fade-down" style={{ color: "#021187" }}>Completa los datos del titular</h2>
 
         <div className="input_process">
           <div className="input_box_2">

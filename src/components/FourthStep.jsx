@@ -8,7 +8,7 @@ const FourthStep = () => {
         <div className="final_step_container">
           <div className="text_banner">
             <div className="texts_container">
-              <h2>¡ Gracias por elegirnos ! </h2>
+              <h2 data-aos="fade-down">¡ Gracias por elegirnos ! </h2>
               <p>
                 A continuación recibiras un correo de bienvenida con los pasos a
                 seguir para utilizar el seguro
@@ -62,14 +62,14 @@ const FourthStep = () => {
               info@holavet.com.ar
             </h4></a>
             <div className="numbers_container">
-              <a href="https://wa.me/1140830075" target="blank">
+              <a href="https://wa.me/1140830075" target="blank" style={{textDecoration:"none"}}>
                 <div className="numbers_box">
                   <img src="./images/whatsapp2.png" alt="whatsapp logo" />
                   <h3>11 4083-0075</h3>
                 </div>
               </a>
 
-              <a href="https://wa.me/1138945039" target="blank">
+              <a href="https://wa.me/1138945039" target="blank" style={{textDecoration:"none"}}>
                 <div className="numbers_box">
                   <img src="./images/whatsapp2.png" alt="whatsapp logo" />
                   <h3>11 3894-5039</h3>

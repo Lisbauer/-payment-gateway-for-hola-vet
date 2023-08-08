@@ -70,6 +70,10 @@
     width: 260px;
     box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.348);    
 }
+.inicio_btn:hover{
+    transition: 0.5s;
+    box-shadow: inset 7px 3px 3px rgba(0, 0, 0, 0.333);
+}
 .quienes_somos_container{
     margin-top: 100px;
 }
@@ -110,6 +114,11 @@
 .ul_footer a{
     text-decoration: none;
 }
+@media (max-width: 1300px) {
+    .img_catdog_box img{
+        max-width: 100%;
+    }
+}
 @media (max-width: 900px) {
     .final_step_container{
         flex-direction: column;
@@ -139,9 +148,6 @@
     .footer_container{
         display: flex;
         flex-direction: column;
-    }
-    .img_catdog_box img{
-        max-width: 70%;
     }
 }
 @media (max-width: 500px) {

@@ -1,3 +1,6 @@
+.table_container{
+position: relative;
+}
 .tittle_img{
     width: 900px;
     margin: 80px;
@@ -15,6 +18,7 @@
     display: flex;
     justify-content: space-between;
     margin: 0px 120px;
+    width: 500px;
 }
 .banner_parrafo{
     display: flex;
@@ -25,7 +29,7 @@
     flex-direction: column;
     position: absolute;
     left: 55%;
-    top: 41%;
+    top: 12%;
 }
 .banner_container p{
     color: #021187;
@@ -66,7 +70,7 @@
 }  
 .plan_box hr{
     position: absolute;
-    width: calc(100% + 1430px);
+    width: calc(70% + 1300px);
 }
 .plan_box h4{
     color: #021187;
@@ -85,11 +89,9 @@ hr{
     border: none;
     border-top: 1px solid #9d9d9d9f;
 }
-
 .mobile_list{
     display: none;
 }
-
 /* CONTRATAR BUTTON*/ 
 .contract_container{
     display: flex;
@@ -106,7 +108,10 @@ hr{
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
 }
-
+.contract:hover{    
+    box-shadow: inset 7px 3px 3px rgba(0, 0, 0, 0.285);
+    transition: 1s;
+}
 .call_text{
     font-family: 'Poppins', sans-serif;
     color: #021187;
@@ -114,13 +119,15 @@ hr{
     margin-top: 260px;
     cursor: pointer;
 }
+.call_text:hover{
+    text-decoration: underline;
+}
 .number_column{
     border: solid 3px #2AFEB2;
     border-radius: 40px;
 }
 
 /* RESPONSIVE */ 
-/* Default styles for larger screens */
 .second_tittle {
     display: block;
   }
@@ -194,6 +201,7 @@ hr{
 }
 .number_items{
     margin-left: 40px;
+    padding-right: 20px;
 }
 .contratar_btn_1{
     background-color: #2AFEB2;
@@ -232,17 +240,67 @@ hr{
     flex-direction: column;
     padding-bottom: 20px;
 }
+@media (max-width: 1700px){
+    .plan_box hr{
+        position: absolute;
+        width: calc(70% + 1000px);
+    }
+    .banner_container{
+        left: 45%;
+    }
+}
+@media (max-width: 1400px){
+    .plan_box hr{
+        position: absolute;
+        width: calc(70% + 750px);
+    }
+    .banner_container{
+        left: 35%;
+    }
+}
+@media (max-width: 1200px){
+    .plan_box hr{
+        position: absolute;
+        width: calc(70% + 500px);
+    }
+    .banner_container{
+        left: 35%;
+    }
+    .call_text{
+        margin-top: 350px;
+    }
+}
+@media (max-width: 1100px){
+    .plan_container{
+        margin: 0 40px;
+    }
+    .banner_container{
+        left: 22%;
+        top: 10%;
+    }
+    .tittle_img{
+        width: 700px;
+    }
+    .banner_tittle_container{
+        margin: 0 20px;
+        font-size: 20px;
+    }
+    .banner_tittle_container h2{
+        font-size: 30px;
+    }
+}
 @media (max-width: 900px) {   
     .call_text{
         display: none;
     }
     .plan_container_mobile{
         display: block;
+        margin-left: 180px;
     }
     .mobile_number_list{
         display: block;
         position: absolute;
-        left: 160px;
+        left: 190px;
         top: 120px;
         display: flex;
         flex-direction: column;
@@ -286,6 +344,7 @@ hr{
     .second_tittle.mobile-text {
       display: block;
       font-size: 25px;
+      margin-left: 40px;
     }
     .mobile_list{
         display: block;
@@ -295,13 +354,11 @@ hr{
     }
     .plan_container{
         position: absolute;
-        top: 55%;
-        margin: 0px 10px;
+        margin: 50px 50px;
     }
-
     .second_tittle{
        position: absolute;
-       top: 42%;
+
        left: 2%;
     }
     .plan_box hr{
@@ -322,8 +379,13 @@ hr{
         margin: 0;
     }
 }
-
-@media (max-width: 650px) {
+@media (max-width: 800px) {
+    .plan_box hr{
+        position: absolute;
+        width: calc(50% + 350px);
+    }
+}
+@media (max-width: 680px) {
     .plan_box hr{
         position: absolute;
         width: calc(50% + 300px);
@@ -331,6 +393,15 @@ hr{
     .tittle_img{
         width: 430px;
         margin-top: 40px;
+    }
+    .plan_container_mobile{
+        margin-left: 80px;
+    }
+}
+@media (max-width: 600px) {
+    .plan_box hr{
+        position: absolute;
+        width: calc(50% + 230px);
     }
 }
 @media (max-width: 500px) {
@@ -354,7 +425,6 @@ hr{
     }
     .second_tittle.mobile-text{
         font-size: 18px;
-        line-height: 120px;
     }
     .mobile_number_list{
         left: 110px;
@@ -374,23 +444,12 @@ hr{
     .box_items_h4 h4{
         font-size: 14px;
     }
+    .plan_container_mobile{
+        margin-left: 0px;
+    }
 }
 @media (max-width: 430px){
     .mobile_number_list{
         left: 80px;
     }
 }
-/*
-    @media (max-width: 500px) {
-        .second_tittle{
-            font-size: 25px;
-         }
-        .call_text{
-            font-size: 20px;
-            width: 200px;
-        }
-        .plan_box hr{
-            position: absolute;
-            width: calc(100% + 600px);
-        }
-}*/
