@@ -12,12 +12,25 @@ const SecondStep = () => {
   const [raza, setRaza] = useState("");
   const [isFormComplete, setIsFormComplete] = useState(true);
   const [isCheckboxValid, setIsCheckboxValid] = useState(true);
-  const [petSections, setPetSections] = useState([{ index: 1, isCatSelected: false, isDogSelected: false }]);
+  const [petSections, setPetSections] = useState([
+    { index: 1, isCatSelected: false, isDogSelected: false },
+  ]);
   const [showPetSection, setShowPetSection] = useState(false); // Local state to control visibility
 
   const handleAddPetSection = () => {
     const newIndex = petSections.length + 1;
-    setPetSections([...petSections, { index: newIndex, isCatSelected: false, isDogSelected: false, nombre: "", raza: "", edad: "", genero: "" }]);
+    setPetSections([
+      ...petSections,
+      {
+        index: newIndex,
+        isCatSelected: false,
+        isDogSelected: false,
+        nombre: "",
+        raza: "",
+        edad: "",
+        genero: "",
+      },
+    ]);
   };
 
   const handlePetInputChange = (index, field, value) => {
@@ -82,7 +95,9 @@ const SecondStep = () => {
       </div>
 
       <div className="input_section">
-        <h2  data-aos="fade-down" style={{ color: "#021187" }}>Completá los datos de las mascotas</h2>
+        <h2 data-aos="fade-down" style={{ color: "#021187" }}>
+          Completá los datos de las mascotas
+        </h2>
         <p>
           Completá los datos de la mascota o las mascotas dependiendo del plan
           que hayas elegido{" "}
@@ -91,31 +106,42 @@ const SecondStep = () => {
           <div>
             {petSections.map((section, index) => (
               <PetDataSection
-              key={section.index}
-              index={index}
-              isCatSelected={section.isCatSelected}
-              isDogSelected={section.isDogSelected}
-              handleCatChange={() => handleCatChange(index)}
-              handleDogChange={() => handleDogChange(index)}
-              nombre={section.nombre}
-              onNombreChange={(value) => handlePetInputChange(index, "nombre", value)}
-              edad={section.edad}
-              onEdadChange={(value) => handlePetInputChange(index, "edad", value)}
-              raza={section.raza}
-              onRazaChange={(value) => handlePetInputChange(index, "raza", value)}
-              genero={section.genero}
-              onGeneroChange={(value) => handlePetInputChange(index, "genero", value)}
-              isValidationTriggered={isValidationTriggered}
-              isCheckboxValid={isCheckboxValid}
-            />
+                key={section.index}
+                index={index}
+                isCatSelected={section.isCatSelected}
+                isDogSelected={section.isDogSelected}
+                handleCatChange={() => handleCatChange(index)}
+                handleDogChange={() => handleDogChange(index)}
+                nombre={section.nombre}
+                onNombreChange={(value) =>
+                  handlePetInputChange(index, "nombre", value)
+                }
+                edad={section.edad}
+                onEdadChange={(value) =>
+                  handlePetInputChange(index, "edad", value)
+                }
+                raza={section.raza}
+                onRazaChange={(value) =>
+                  handlePetInputChange(index, "raza", value)
+                }
+                genero={section.genero}
+                onGeneroChange={(value) =>
+                  handlePetInputChange(index, "genero", value)
+                }
+                isValidationTriggered={isValidationTriggered}
+                isCheckboxValid={isCheckboxValid}
+              />
             ))}
 
-{!showPetSection && (
-            <button onClick={handleAddPetSection} style={{ fontSize: "24px", marginTop: "80px" }}>
-              +
-            </button>
-          )}
-          <h5>Agregar otras mascotas</h5>
+            {!showPetSection && (
+              <button
+                onClick={handleAddPetSection}
+                style={{ fontSize: "24px", marginTop: "80px" }}
+              >
+                +
+              </button>
+            )}
+            <h5>Agregar otras mascotas</h5>
           </div>
 
           <h3 className="process_continue" onClick={handleContinue}>
@@ -124,9 +150,11 @@ const SecondStep = () => {
           {!isFormComplete && isValidationTriggered && (
             <p className="warning">Complete todos los campos por favor</p>
           )}
-          <a href="https://api.whatsapp.com/send?phone=5491138522435&text=Quiero%20contratar"><h3 style={{ color: "#021187", textDecoration: "underline" }}>
-            Hablar con un asesor
-          </h3></a>
+          <a href="https://api.whatsapp.com/send?phone=5491138522435&text=Quiero%20contratar">
+            <h3 style={{ color: "#021187", textDecoration: "underline" }}>
+              Hablar con un asesor
+            </h3>
+          </a>
         </div>
       </div>
     </div>

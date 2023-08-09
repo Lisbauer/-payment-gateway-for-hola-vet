@@ -74,46 +74,7 @@
     transition: 0.5s;
     box-shadow: inset 7px 3px 3px rgba(0, 0, 0, 0.333);
 }
-.quienes_somos_container{
-    margin-top: 100px;
-}
-/* FOOTER*/
-.footer_container{
-    background: #021187;
-    text-align: left;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-}
-.footer_text_number{
-    margin: 50px;
-}
-.footer_text_number h4{
-    font-weight: 100;
-}
-.footer_container img{
-    width: 200px;
-}
-.numbers_box{
-    display: flex;
-    color: white;
-    line-height: 0;
-    gap: 10px;
-    margin-top: 15px;
-}
-.numbers_box img{
-   width: 35px;
-   height: 35px;
-}
-.ul_footer li{
-    list-style: none;
-    margin: 25px;
-    font-size: 19px;
-    color: white;
-}
-.ul_footer a{
-    text-decoration: none;
-}
+
 @media (max-width: 1300px) {
     .img_catdog_box img{
         max-width: 100%;

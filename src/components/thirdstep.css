@@ -114,16 +114,16 @@
 
 /* Estilos para el checkbox redondo */
 .cat_box input[type="checkbox"] {
-    appearance: none; /* Oculta el estilo predeterminado del checkbox */
-    -webkit-appearance: none; /* Para navegadores basados en WebKit (como Safari) */
-    -moz-appearance: none; /* Para navegadores basados en Gecko (como Firefox) */
+    appearance: none; 
+    -webkit-appearance: none; 
+    -moz-appearance: none;
     width: 20px;
     height: 20px;
-    border-radius: 50%; /* Hace que el checkbox sea redondo */
-    border: 2px solid #777; /* Color del borde gris */
-    background-color: #ccc; /* Color de fondo gris */
+    border-radius: 50%;
+    border: 2px solid #777; 
+    background-color: #ccc; 
     cursor: pointer;
-    outline: none; /* Elimina el contorno predeterminado al hacer clic */
+    outline: none;
   }
   .cat_box input[type="checkbox"]:checked {
     background-color: #021287b5;

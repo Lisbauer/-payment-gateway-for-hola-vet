@@ -301,7 +301,7 @@ hr{
         display: block;
         position: absolute;
         left: 190px;
-        top: 120px;
+        top: -200px;
         display: flex;
         flex-direction: column;
     }
@@ -353,7 +353,7 @@ hr{
         display: none;
     }
     .plan_container{
-        position: absolute;
+
         margin: 50px 50px;
     }
     .second_tittle{
@@ -362,7 +362,6 @@ hr{
        left: 2%;
     }
     .plan_box hr{
-        position: absolute;
         width: calc(40% + 500px);
     }
     .banner_container p{
@@ -409,14 +408,14 @@ hr{
         width: 280px;
     }
     .mobile_number_list p{
-        font-size: 15px;
-        line-height: 67px;
+        font-size: 13px;
+        line-height: 50px;
     }
     .plan_box h4{
-        font-size: 15px;
+        font-size: 13px;
     }
     .plan_box h5{
-        font-size: 15px;
+        font-size: 9px;
         line-height: 0;
     }
     .plan_box hr{
@@ -428,6 +427,7 @@ hr{
     }
     .mobile_number_list{
         left: 110px;
+        top: -110px;
     }
     .plan_box_tittle_1{
         font-size: 25px;
@@ -448,8 +448,11 @@ hr{
         margin-left: 0px;
     }
 }
-@media (max-width: 430px){
+@media (max-width: 390px){
     .mobile_number_list{
-        left: 80px;
+        top: -106px;
+    }
+    .mobile_number_list p{
+        line-height: 52px;
     }
 }

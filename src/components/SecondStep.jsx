@@ -19,7 +19,6 @@ const SecondStep = () => {
   const [isFormComplete, setIsFormComplete] = useState(true);
   const [isValidationTriggered, setIsValidationTriggered] = useState(false);
 
-
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -144,7 +143,9 @@ const SecondStep = () => {
       </div>
 
       <div className="input_section">
-        <h2  data-aos="fade-down" style={{ color: "#021187" }}>Completá los datos del titular</h2>
+        <h2 data-aos="fade-down" style={{ color: "#021187" }}>
+          Completá los datos del titular
+        </h2>
 
         <div className="input_process">
           <div className="input_box_2">
@@ -177,39 +178,41 @@ const SecondStep = () => {
           </div>
 
           <div className="input_box_2">
-  <div className="input_box">
-    <h3>Tipo de Documento</h3>
-    <select
-      value={tipoDocumento}
-      onChange={(event) => {
-        setTipoDocumento(event.target.value);
-        setIsValidationTriggered(false); // Reset validation trigger when the selection changes
-      }}
-      style={{
-        border: isValidationTriggered && !tipoDocumento ? "1px solid red" : "",
-      }}
-    >
-      <option value="">Seleccionar tipo de documento</option>
-      <option value="DNI">DNI</option>
-      <option value="Cedula">Cédula</option>
-      <option value="Pasaporte">Pasaporte</option>
-    </select>
-  </div>
+            <div className="input_box">
+              <h3>Tipo de Documento</h3>
+              <select
+                value={tipoDocumento}
+                onChange={(event) => {
+                  setTipoDocumento(event.target.value);
+                  setIsValidationTriggered(false); // Reset validation trigger when the selection changes
+                }}
+                style={{
+                  border:
+                    isValidationTriggered && !tipoDocumento
+                      ? "1px solid red"
+                      : "",
+                }}
+              >
+                <option value="">Seleccionar tipo de documento</option>
+                <option value="DNI">DNI</option>
+                <option value="Cedula">Cédula</option>
+                <option value="Pasaporte">Pasaporte</option>
+              </select>
+            </div>
 
-  <div className="input_box">
-    <h3>{tipoDocumento ? tipoDocumento : "Documento"}</h3>
-    <input
-      className="shorter_inputs"
-      type="text"
-      value={dni}
-      onChange={(event) => setDni(event.target.value)}
-      style={{
-        border: isValidationTriggered && !dni ? "1px solid red" : "",
-      }}
-    />
-  </div>
-</div>
-
+            <div className="input_box">
+              <h3>{tipoDocumento ? tipoDocumento : "Documento"}</h3>
+              <input
+                className="shorter_inputs"
+                type="text"
+                value={dni}
+                onChange={(event) => setDni(event.target.value)}
+                style={{
+                  border: isValidationTriggered && !dni ? "1px solid red" : "",
+                }}
+              />
+            </div>
+          </div>
 
           <div className="input_box_2">
             <div className="input_box">
@@ -337,9 +340,17 @@ const SecondStep = () => {
           {!isFormComplete && isValidationTriggered && (
             <p className="warning">Complete todos los campos por favor</p>
           )}
-          <a href="https://api.whatsapp.com/send?phone=5491138522435&text=Quiero%20contratar"><h3 style={{ color: "#021187", textDecoration: "underline", cursor:"pointer" }}>
-            Hablar con un asesor
-          </h3></a>
+          <a href="https://api.whatsapp.com/send?phone=5491138522435&text=Quiero%20contratar">
+            <h3
+              style={{
+                color: "#021187",
+                textDecoration: "underline",
+                cursor: "pointer",
+              }}
+            >
+              Hablar con un asesor
+            </h3>
+          </a>
         </div>
       </div>
     </div>

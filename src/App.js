@@ -7,6 +7,7 @@ import { Routes, Route } from 'react-router-dom';
 import SecondStep from './components/SecondStep';
 import ThirdStep from './components/ThirdStep';
 import FourthStep from './components/FourthStep';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Route path="/step3" element= {<ThirdStep />}/>
       <Route path="/step4" element= {<FourthStep />}/>
       </Routes>
+      <Footer/>
     </div>
   );
 }
