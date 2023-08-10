@@ -15,7 +15,7 @@ const SecondStep = () => {
   const [petSections, setPetSections] = useState([
     { index: 1, isCatSelected: false, isDogSelected: false },
   ]);
-  const [showPetSection, setShowPetSection] = useState(false); // Local state to control visibility
+  const [showPetSection, setShowPetSection] = useState(false);
 
   const handleAddPetSection = () => {
     const newIndex = petSections.length + 1;
@@ -64,7 +64,6 @@ const SecondStep = () => {
   };
 
   const handleContinue = () => {
-    // Validación de los campos
     const isComplete = nombre && genero && raza;
     setIsValidationTriggered(true);
     setIsFormComplete(isComplete);

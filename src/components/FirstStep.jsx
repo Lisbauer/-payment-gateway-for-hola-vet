@@ -39,21 +39,21 @@ const FirstStep = () => {
                 alt="banner basico"
               />
               <p>1</p>
+              <p>1</p>
               <p>Ilimitadas</p>
               <p>3</p>
-              <p>4</p>
-              <p>5</p>
+              <p>2</p>
               <p>3</p>
-              <p>4</p>
-              <p>5</p>
-              <p>5</p>
-              <p>3</p>
-              <p>4</p>
-              <p>5</p>
-              <p>5</p>
+              <p>1</p>
+              <p>1</p>
+              <p>2</p>
+              <p>1</p>
+              <p>1</p>
+              <p>1</p>
+              <p></p>
               <h4 className="sin_limites">Sin límite</h4>
               <h4 className="charge_number">$1610</h4>
-              <h3 className="contract">Contratar</h3>
+             <a style={{textDecoration:"none"}} href="./step2"><h3 className="contract">Contratar</h3></a>
             </div>
             <div className="mobile_number_list">
               <p>Ilimitadas</p>
@@ -82,22 +82,22 @@ const FirstStep = () => {
                 src="./images/planpreferido.png"
                 alt="banner preferido"
               />
-              <p>1</p>
+              <p>2</p>
+              <p>2</p>
               <p>Ilimitadas</p>
               <p>3</p>
-              <p>4</p>
-              <p>5</p>
+              <p>2</p>
               <p>3</p>
-              <p>4</p>
-              <p>5</p>
-              <p>5</p>
-              <p>3</p>
-              <p>4</p>
-              <p>5</p>
-              <p>5</p>
+              <p>1</p>
+              <p>1</p>
+              <p>2</p>
+              <p>1</p>
+              <p>1</p>
+              <p>1</p>
+              <p></p>
               <h4 className="sin_limites">Sin límite</h4>
               <h4 className="charge_number">$1825</h4>
-              <h3 className="contract">Contratar</h3>
+              <a style={{textDecoration:"none"}} href="./step2"><h3 className="contract">Contratar</h3></a>
             </div>
             <div className="third_number_column"
               style={{
@@ -111,22 +111,22 @@ const FirstStep = () => {
                 src="./images/planfull.png"
                 alt="banner full"
               />
-              <p>1</p>
+              <p>3</p>
+              <p>3</p>
               <p>Ilimitadas</p>
               <p>3</p>
-              <p>4</p>
-              <p>5</p>
+              <p>2</p>
               <p>3</p>
-              <p>4</p>
-              <p>5</p>
-              <p>5</p>
-              <p>3</p>
-              <p>4</p>
-              <p>5</p>
-              <p>5</p>
+              <p>1</p>
+              <p>1</p>
+              <p>2</p>
+              <p>1</p>
+              <p>1</p>
+              <p>1</p>
+              <p></p>
               <h4 className="sin_limites">Sin límite</h4>
               <h4 className="charge_number">$2050</h4>
-              <h3 className="contract">Contratar</h3>
+              <a style={{textDecoration:"none"}} href="./step2"><h3 className="contract">Contratar</h3></a>
             </div>
           </div>
         </div>
@@ -379,7 +379,7 @@ const FirstStep = () => {
               <h4 className="number_items" style={{color:"#021187", marginLeft:"50px"}}>1</h4>
             </div>
             <div className="btn_text_mobile">
-            <h3 className="contratar_btn_1">Contratar →</h3>
+            <a style={{textDecoration:"none"}} href="./step2"><h3 className="contratar_btn_1">Contratar →</h3></a>
             <p>📞Prefiero que me llamen</p>
             </div>
           </div>
@@ -403,7 +403,7 @@ const FirstStep = () => {
               <h4 className="number_items" style={{color:"#021187", marginLeft:"50px"}}>2</h4>
             </div>
             <div className="btn_text_mobile">
-            <h3 className="contratar_btn_2">Contratar →</h3>
+            <a style={{textDecoration:"none"}} href="./step2"><h3 className="contratar_btn_2">Contratar →</h3></a>
             <p>📞Prefiero que me llamen</p>
             </div>
           </div>
@@ -427,7 +427,7 @@ const FirstStep = () => {
               <h4 className="number_items" style={{color:"#2AFEB2", marginLeft:"50px"}}>3</h4>
             </div>
             <div className="btn_text_mobile">
-            <h3 className="contratar_btn_3">Contratar →</h3>
+            <a style={{textDecoration:"none"}} href="./step2"><h3 className="contratar_btn_3">Contratar →</h3></a>
             <p>📞Prefiero que me llamen</p>
             </div>
           </div>
