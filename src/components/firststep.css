@@ -449,6 +449,10 @@ hr{
     }
 }
 @media (max-width: 390px){
+    .plan_box hr{
+        position: absolute;
+        width: calc(50% + 130px);
+    }
     .mobile_number_list{
         top: -106px;
     }
@@ -460,8 +464,15 @@ hr{
     }
 }
 @media (max-width: 340px){
+    .second_tittle.mobile-text {
+        font-size: 15px;
+      }
+    .plan_container{
+        margin: 20px 20px;
+    }
     .mobile_number_list{
         top: -108px;
+        left: 80px;
     }
     .box_items_h4 h4{
         font-size: 7px;

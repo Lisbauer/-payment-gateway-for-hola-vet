@@ -39,3 +39,15 @@
 .ul_footer a{
     text-decoration: none;
 }
+@media (max-width: 500px){
+    .ul_footer li{
+        margin: 10px;
+        font-size: 14px;
+        width: 100px;
+    }
+}
+@media (max-width: 340px){
+    .quienes_somos_container img{
+        width: 130px;
+    }
+}
