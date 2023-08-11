@@ -275,7 +275,7 @@ hr{
         margin: 0 40px;
     }
     .banner_container{
-        left: 22%;
+        left: 25%;
         top: 10%;
     }
     .tittle_img{
@@ -420,7 +420,7 @@ hr{
     }
     .plan_box hr{
         position: absolute;
-        width: calc(50% + 140px);
+        width: calc(50% + 160px);
     }
     .second_tittle.mobile-text{
         font-size: 18px;
@@ -457,5 +457,49 @@ hr{
     }
     .box_items_h4 h4{
         font-size: 10px;
+    }
+}
+@media (max-width: 340px){
+    .mobile_number_list{
+        top: -108px;
+    }
+    .box_items_h4 h4{
+        font-size: 7px;
+    }
+    .number_items{
+        font-size: 12px;
+    }
+    .plan_box_price{
+        font-size: 20px;
+    }
+    .plan_box_tittle_1{
+        font-size: 20px;
+    }
+    .plan_box_tittle_2{
+        font-size: 20px;
+    }
+    .plan_box_tittle_3{
+        font-size: 20px;
+    }
+    .contratar_btn_1{
+        font-size: 14px;
+        width: 140px;
+    }
+    .contratar_btn_2{
+        font-size: 14px;
+        width: 140px;
+    }
+    .contratar_btn_3{
+        font-size: 14px;
+        width: 140px;
+    }
+    .plan_box_mobile_1 p{
+        font-size: 13px;
+    }
+    .plan_box_mobile_2 p{
+        font-size: 13px;
+    }
+    .plan_box_mobile_3 p{
+        font-size: 13px;
     }
 }

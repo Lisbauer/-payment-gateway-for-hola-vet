@@ -367,7 +367,7 @@ const FirstStep = () => {
             <div className="box_items">
               <div className="box_items_h4">
               <h4 style={{color:"#021187",fontWeight:"900"}}>Responsabilidad Civil</h4>
-              <h4 style={{color:"white",fontWeight:"100", lineHeight:"1px"}}>Hasta $300.000.- por mascota</h4>
+              <h4 className="parrafo_box" style={{color:"white",fontWeight:"100", lineHeight:"1px"}}>Hasta $300.000.- por mascota</h4>
               </div>
               <h4 className="number_items" style={{color:"#021187"}}>1</h4>
             </div>

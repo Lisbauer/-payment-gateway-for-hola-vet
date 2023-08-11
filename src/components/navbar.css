@@ -96,6 +96,11 @@
   }
 
 /* RESPONSIVE */ 
+@media (max-width: 1200px) {
+  .logo_img{
+    width: 250px;
+  }
+}
 @media (max-width: 900px) {
     .burger-btn{
         display: flex;
@@ -197,4 +202,9 @@
     .btn_container{
         width: 300px;
     }
+}
+@media (max-width: 400px){
+  .ul_box li{
+    font-size: 14px;
+  }
 }

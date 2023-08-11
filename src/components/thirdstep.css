@@ -130,10 +130,29 @@
   }
 
 /* RESPONSIVE */ 
-@media (max-width: 1300px) {
-    
+@media (max-width: 1400px) {
+    .input_section{
+        margin-right: 200px;
+    }
+    .process_list li{
+        font-size: 17px;
+    }
+    .process_list{
+        margin-left: 10px;
+    }
+    .process_container h2{
+        margin-left: 40px;
+        font-size: 20px;
+        width: 250px;
+    }
 }
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
+    .input_section{
+        position: relative;
+        right: 13%;
+    }
+}
+@media (max-width: 1000px) {
     .process_container{
         align-items: center;
         justify-content: center;
@@ -178,6 +197,9 @@
      .parrafo_telefono{
         font-size: 10px;
      }
+     .input_section{
+        left: 15%;
+     }
 }
 @media (max-width: 500px) {
     .input_box h3{
@@ -210,6 +232,10 @@
      .especie_container h3{
         font-size: 15px;
      }
+     .input_section{
+        left: 0%;
+        margin-right: 0;
+     }
 }
 @media (max-width: 410px) {
     .genero_edad{
@@ -232,6 +258,8 @@
      }
      .parrafo_telefono{
         font-size: 9px;
+        line-height: 12px;
+        width: 220px;
      }
      .input_section h2{
         font-size: 16px;
@@ -242,5 +270,20 @@
     .process_list li{
         width: 200px;
         font-size: 14px;
+    }
+}
+@media (max-width: 360px) {
+    .input_box h3{
+        font-size: 12px;
+    }
+    .shorter_inputs{
+        width: 100px;
+    }
+    .input_box select{
+        width: 130px;
+        font-size: 15px;
+    }
+    .inputs_larger{
+        width: 230px;
     }
 }
