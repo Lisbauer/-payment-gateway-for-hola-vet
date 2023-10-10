@@ -353,7 +353,7 @@ const FirstStep = () => {
             <div className="plan_box">
               <h4>
                 Descuentos en accesorios
-                <br /> y alimentos hasta el 20%{" "}
+                <br /> y alimentos hasta el 15%{" "}<br /> con tu tarjeta 365
               </h4>
               <hr />
             </div>
@@ -363,18 +363,18 @@ const FirstStep = () => {
           <div className="plan_box_mobile_1">
             <h2 className="plan_box_tittle_1">Plan Básico</h2>
             <h2 className="plan_box_price">$2.300.-</h2>
-            <p>Mensual</p>
+            <p  className="subtittle">Mensual</p>
             <div className="box_items">
               <div className="box_items_h4">
               <h4 style={{color:"#021187",fontWeight:"900"}}>Responsabilidad Civil</h4>
-              <h4 className="parrafo_box" style={{color:"white",fontWeight:"100", lineHeight:"1px"}}>Hasta $300.000.- por mascota</h4>
+              <p style={{color:"white",fontWeight:"100"}}>Hasta $300.000.- por mascota</p>
               </div>
               <h4 className="number_items" style={{color:"#021187"}}>1</h4>
             </div>
             <div className="box_items">
               <div className="box_items_h4">
               <h4 style={{color:"#021187"}}>Eutanasia, vejez, cremación y <br />retiro del cuerpo</h4>
-              <h4 style={{color:"white",fontWeight:"100", lineHeight:"1px"}}>Hasta $9000.- por mascota</h4>
+              <p style={{color:"white",fontWeight:"100"}}>Hasta $9000.- por mascota</p>
               </div>
               <h4 className="number_items" style={{color:"#021187", marginLeft:"50px"}}>1</h4>
             </div>
@@ -387,18 +387,18 @@ const FirstStep = () => {
           <div className="plan_box_mobile_2">
             <h2 className="plan_box_tittle_2">Plan Preferido</h2>
             <h2 className="plan_box_price">$2.300.-</h2>
-            <p>Mensual</p>
+            <p  className="subtittle">Mensual</p>
             <div className="box_items">
               <div className="box_items_h4">
               <h4 style={{color:"#021187",fontWeight:"900"}}>Responsabilidad Civil</h4>
-              <h4 style={{color:"#021187",fontWeight:"100", lineHeight:"1px"}}>Hasta $300.000.- por mascota</h4>
+              <p style={{color:"#021187",fontWeight:"100"}}>Hasta $300.000.- por mascota</p>
               </div>
               <h4 className="number_items" style={{color:"#021187"}}>2</h4>
             </div>
             <div className="box_items">
               <div className="box_items_h4">
               <h4 style={{color:"#021187"}}>Eutanasia, vejez, cremación y <br />retiro del cuerpo</h4>
-              <h4 style={{color:"#021187",fontWeight:"100", lineHeight:"1px"}}>Hasta $9000.- por mascota</h4>
+              <p style={{color:"#021187",fontWeight:"100"}}>Hasta $9000.- por mascota</p>
               </div>
               <h4 className="number_items" style={{color:"#021187", marginLeft:"50px"}}>2</h4>
             </div>
@@ -411,18 +411,18 @@ const FirstStep = () => {
           <div className="plan_box_mobile_3">
             <h2 className="plan_box_tittle_3">Plan Full</h2>
             <h2 className="plan_box_price" style={{color:"#2AFEB2"}}>$2.300.-</h2>
-            <p>Mensual</p>
+            <p  className="subtittle">Mensual</p>
             <div className="box_items">
               <div className="box_items_h4">
               <h4 style={{color:"#2AFEB2",fontWeight:"900"}}>Responsabilidad Civil</h4>
-              <h4 style={{color:"#2AFEB2",fontWeight:"100", lineHeight:"1px"}}>Hasta $300.000.- por mascota</h4>
+              <p style={{color:"#2AFEB2",fontWeight:"100"}}>Hasta $300.000.- por mascota</p>
               </div>
               <h4 className="number_items" style={{color:"#2AFEB2"}}>3</h4>
             </div>
             <div className="box_items">
               <div className="box_items_h4">
               <h4 style={{color:"#2AFEB2"}}>Eutanasia, vejez, cremación y <br />retiro del cuerpo</h4>
-              <h4 style={{color:"#2AFEB2",fontWeight:"100", lineHeight:"1px"}}>Hasta $9000.- por mascota</h4>
+              <p style={{color:"#2AFEB2",fontWeight:"100",}}>Hasta $9000.- por mascota</p>
               </div>
               <h4 className="number_items" style={{color:"#2AFEB2", marginLeft:"50px"}}>3</h4>
             </div>

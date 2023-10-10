@@ -208,3 +208,8 @@
     font-size: 14px;
   }
 }
+@media (max-width: 330px){
+  .ul_box li{
+    font-size: 12px;
+  }
+}

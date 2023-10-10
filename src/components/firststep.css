@@ -108,6 +108,10 @@ hr{
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
 }
+.parrafo_box{
+    height: auto;
+    width: 100%;
+}
 .contract:hover{    
     box-shadow: inset 7px 3px 3px rgba(0, 0, 0, 0.285);
     transition: 1s;
@@ -174,20 +178,17 @@ hr{
     color: #021187;
     line-height: 1px;
 }
-.plan_box_mobile_1 p{
+
+.subtittle{
     color: #021187;
     text-align: center;
     line-height: 1px;
 }
 .plan_box_mobile_2 p{
     color: #021187;
-    text-align: center;
-    line-height: 1px;
 }
 .plan_box_mobile_3 p{
     color: #2AFEB2;
-    text-align: center;
-    line-height: 1px;
 }
 .box_items{
     display: flex;
@@ -459,9 +460,32 @@ hr{
     .mobile_number_list p{
         line-height: 54px;
     }
+    .box_items{
+        height: 80px;
+    }
     .box_items_h4 h4{
         font-size: 10px;
+        margin: 0;
     }
+    .box_items_h4 p{
+        font-size: 10px;
+    }
+    .contratar_btn_1{
+        margin-top: 50px;
+        font-size: 16px;
+        width: 160px;
+    }
+    .contratar_btn_2{
+        margin-top: 50px;
+        font-size: 16px;
+        width: 160px;
+    }
+    .contratar_btn_3{
+        margin-top: 50px;
+        font-size: 16px;
+        width: 160px;
+    }
+
 }
 @media (max-width: 340px){
     .second_tittle.mobile-text {
@@ -475,7 +499,8 @@ hr{
         left: 80px;
     }
     .box_items_h4 h4{
-        font-size: 7px;
+        font-size: 11px;
+        margin-top: 30px;
     }
     .number_items{
         font-size: 12px;
@@ -512,5 +537,11 @@ hr{
     }
     .plan_box_mobile_3 p{
         font-size: 13px;
+    }
+    .box_items{
+        height: 100px;
+    }
+    .number_items{
+        padding-top: 40px;
     }
 }
